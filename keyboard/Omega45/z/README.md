@@ -1,11 +1,11 @@
-# Omega45 Rev.C
+# Omega45 Rev.Z
 
 
 ## 描述
 
 - 4x12的45%键盘
 - 一个Caps灯和三个单色状态指示灯
-- 支持WS2812 RGB
+
 - Type-C接口
 - 蓝牙主控为nRF52810
 
