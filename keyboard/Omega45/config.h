@@ -44,7 +44,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define KEYBOARD_SCAN_INTERVAL 1 // 键盘最小时间单位TICK (ms)
 #define KEYBOARD_FAST_SCAN_INTERVAL 10 // 通常模式下，多久扫描一次键盘 (ms)
 #define KEYBOARD_SLOW_SCAN_INTERVAL 100 // 慢速模式下，多久扫描一次键盘 (ms)
-#define LED_AUTOOFF_TIME 5 /* LED自动熄灭时长(s)，设为0则不自动熄灭 */
+#define LED_AUTOOFF_TIME 30 /* LED自动熄灭时长(s)，设为0则不自动熄灭 */
 #define DCDC_ENABLED //启用DCDC电源模式
 
 // 键盘额外功能
@@ -72,19 +72,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LED_CAPS 4  //caps led ：5 ； led1、2、3、4：19、20、27、26
 
 // ws2812 RGB 配置
-#define RGB_DI_PIN 10
-#define RGBLED_NUM 8
-#define RGBLIGHT_ANIMATIONS
-#define RGB_PWR_PIN 17 // P-mos
-//#define RGB_PWR_PIN_REVERSE 12 // N-mos
+//#define RGB_DI_PIN 10
+//#define RGBLED_NUM 8
+//#define RGBLIGHT_ANIMATIONS
+//#define RGB_PWR_PIN 17 // P-mos
+////#define RGB_PWR_PIN_REVERSE 12 // N-mos
 
 // 3灯指示配置引脚
 #define LED_STATUS_BLE 19
-#define LED_STATUS_CHARGING 18
+#define LED_STATUS_CHARGING 10
 #define LED_STATUS_USB 20
 #define LED_BLE_CHANNEL1 19
 #define LED_BLE_CHANNEL2 20
-#define LED_BLE_CHANNEL3 18
+#define LED_BLE_CHANNEL3 10
 #define LED_POSITIVE // LED上拉驱动
 // 独立硬件按钮
 #define POWER_BUTTON 3
